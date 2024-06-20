@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="output.css">
+    <script src="testing.js"></script>
+    <title>Subscription page</title>
+</head>
+<body class="p-20 bg-gradient-to-b from-black via-red-900 to-black font-mono">
+    <!--header-->
+    <div class="top-0 left-0 right-0 p-2 flex flex-row justify-evenly bg-black items-center fixed border-slate-600 border-solid border-b-2">
+        <button class="sm:opacity-0 opacity-100 left-0 fixed" onclick="teloMenu();"><img class="h-12 hover:opacity-80 sm:opacity-0 sm:cursor-default cursor-pointer min-w-20" src="img/PikPng.com_white-bars-png_4251166.png" alt=""></button>
+        <img class="h-16 ml-16 hover:opacity-80 cursor-pointer" src="img/pngegg (3).png">
+        <h3 class="text-white">Project Square</h3>
+        <img class="h-10 hover:opacity-80 cursor-pointer" src="img/[CITYPNG.COM]White User Member Guest Icon PNG Image - 4000x4000.png">
+    </div>
+    <!--sidebar-->
+    <div class="js-menu z-10 sm:z-0"></div>
+    <div class="js-original-menu opacity-0 sm:opacity-100 top-20 left-0 bottom-0 bg-black flex flex-col justify-around items-center fixed border-slate-600 border-solid border-r-2">
+        <img class="h-14 sm:hover:opacity-80 m-2 sm:cursor-pointer" src="img/m9nf3l552h9ulebgp788rvp1dj.png">  
+        <img class="h-12 sm:hover:opacity-70 opacity-90 m-2 sm:cursor-pointer" src="img/7n3va2sjun2cgujl66rrnik550.png">  
+        <img class="h-14 sm:z-10 z-0 sm:hover:opacity-70 opacity-90 m-2 sm:cursor-pointer" src="img/—Pngtree—settings icon_4490382.png">  
+    </div>
+    <!--main-->
+    <div class="sm:ml-24 flex xl:mt-48 flex-col justify-around items-center">
+        <div class="xl:flex xl:flex-row xl:justify-between">
+            <div class="md:flex md:flex-row md:justify-around">
+                <div class="bg-black xl:mx-5 2xl:mx-10 border-solid text-white border-slate-600 border-2 rounded-md my-5 mx-5 p-2 flex flex-col">
+                    <div class="flex flex-col items-center">
+                        <h1 class="mb-1">Subscription1</h1>
+                        <img class="h-60 max-w-60 min-w-60" src="img/letöltés.png">
+                    </div>
+                    <div class="sm:flex sm:flex-row sm:justify-around flex flex-col justify-around mt-2 p-2 border-t-2 border-black border-solid">
+                        <div >
+                            <p>Monthly: $</p>
+                            <p>Yearly: $</p>
+                        </div>
+                        <button onclick="subscribe(1)" class="js-sub1 bg-gradient-to-r from-red-900 to-red-950 p-3 border-solid border-black border-2 rounded-3xl hover:rounded-2xl hover:bg-gradient-to-l hover:from-slate-600 hover:to-slate-400 transition-all duration-300 ease-linear">Subscribe</button>
+                    </div>
+                    <div class=" border-t-2 border-black border-solid flex flex-col justify-center">
+                        <button onclick="moreInfo('A')" class=" js-button bg-orange-600 text-white mt-1 p-1 border-solid border-black border-2 rounded-md hover:rounded-sm hover:bg-slate-500 transition-all duration-300 ease-linear">More information</button>
+                    </div>
+                </div>
+                <div class="bg-black xl:mx-5 2xl:mx-10 border-solid text-white border-slate-600 border-2 rounded-md my-5 mx-5 p-2 flex flex-col">
+                    <div class="flex flex-col items-center">
+                        <h1 class="mb-1">Subscription1</h1>
+                        <img class="h-60 max-w-60 min-w-60" src="img/letöltés.png">
+                    </div>
+                    <div class="sm:flex sm:flex-row sm:justify-around flex flex-col justify-around mt-2 p-2 border-t-2 border-black border-solid">
+                        <div >
+                            <p>Monthly: $</p>
+                            <p>Yearly: $</p>
+                        </div>
+                        <button onclick="subscribe(2)" class="js-sub2 bg-gradient-to-r from-red-900 to-red-950 p-3 border-solid border-black border-2 rounded-3xl hover:rounded-2xl hover:bg-gradient-to-l hover:from-slate-600 hover:to-slate-400 transition-all duration-300 ease-linear">Subscribe</button>
+                    </div>
+                    <div class=" border-t-2 border-black border-solid flex flex-col justify-center">
+                        <button onclick="moreInfo('B')" class=" js-button bg-orange-600 text-white mt-1 p-1 border-solid border-black border-2 rounded-md hover:rounded-sm hover:bg-slate-500 transition-all duration-300 ease-linear">More information</button>
+                    </div>
+                </div>
+            </div>
+            <div class="md:flex md:flex-row md:justify-around">
+                <div class="bg-black xl:mx-5 2xl:mx-10 border-solid text-white border-slate-600 border-2 rounded-md my-5 mx-5 p-2 flex flex-col">
+                    <div class="flex flex-col items-center">
+                        <h1 class="mb-1">Subscription1</h1>
+                        <img class="h-60 max-w-60 min-w-60" src="img/letöltés.png">
+                    </div>
+                    <div class="sm:flex sm:flex-row sm:justify-around flex flex-col justify-around mt-2 p-2 border-t-2 border-black border-solid">
+                        <div >
+                            <p>Monthly: $</p>
+                            <p>Yearly: $</p>
+                        </div>
+                        <button onclick="subscribe(3)" class="js-sub3 bg-gradient-to-r from-red-900 to-red-950 p-3 border-solid border-black border-2 rounded-3xl hover:rounded-2xl hover:bg-gradient-to-l hover:from-slate-600 hover:to-slate-400 transition-all duration-300 ease-linear">Subscribe</button>
+                    </div>
+                    <div class=" border-t-2 border-black border-solid flex flex-col justify-center">
+                        <button onclick="moreInfo('C')" class=" js-button bg-orange-600 text-white mt-1 p-1 border-solid border-black border-2 rounded-md hover:rounded-sm hover:bg-slate-500 transition-all duration-300 ease-linear">More information</button>
+                    </div>
+                </div>
+                <div class="bg-black xl:mx-5 2xl:mx-10 border-solid text-white border-slate-600 border-2 rounded-md my-5 mx-5 p-2 flex flex-col">
+                    <div class="flex flex-col items-center">
+                        <h1 class="mb-1">Subscription1</h1>
+                        <img class="h-60 max-w-60 min-w-60" src="img/letöltés.png">
+                    </div>
+                    <div class="sm:flex sm:flex-row sm:justify-around flex flex-col justify-around mt-2 p-2 border-t-2 border-black border-solid">
+                        <div >
+                            <p>Monthly: $</p>
+                            <p>Yearly: $</p>
+                        </div>
+                        <button onclick="subscribe(4)" class="js-sub4 bg-gradient-to-r from-red-900 to-red-950 p-3 border-solid border-black border-2 rounded-3xl hover:rounded-2xl hover:bg-gradient-to-l hover:from-slate-600 hover:to-slate-400 transition-all duration-300 ease-linear">Subscribe</button>
+                    </div>
+                    <div class=" border-t-2 border-black border-solid flex flex-col justify-center">
+                        <button onclick="moreInfo('D')" class=" js-button bg-orange-600 text-white mt-1 p-1 border-solid border-black border-2 rounded-md hover:rounded-sm hover:bg-slate-500 transition-all duration-300 ease-linear">More information</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="js-info rounded-md text-white flex flex-col justify-start bg-black sm:left-24 left-10 right-10 bottom-5 fixed"></div>
+        <div class="js-alert rounded-3xl text-white flex flex-col justify-start bg-black md:left-80 md:right-52 sm:left-40 sm:right-20 left-10 right-10 top-32 fixed"></div>
+    </div>
+</body>
+</html>
